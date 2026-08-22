@@ -19,11 +19,27 @@
       <q-list>
         <q-item-label header> Navegação </q-item-label>
 
-        <EssentialLink
-          v-for="link in linksList"
-          :key="link.label"
-          v-bind="link"
-        />
+        <!-- Percorre a lista: se tiver children renderiza o Dropdown, senão o Link Simples -->
+        <template v-for="item in linksList" :key="item.label">
+          <!-- DROPDOWN PARA USUÁRIO -->
+          <q-expansion-item
+            v-if="item.children"
+            :icon="item.icon"
+            :label="item.label"
+            :caption="item.caption"
+          >
+            <EssentialLink
+              v-for="subLink in item.children"
+              :key="subLink.label"
+              v-bind="subLink"
+              class="q-pl-md"
+              style="padding-left: 2.4rem"
+            />
+          </q-expansion-item>
+
+          <!-- LINK SIMPLES -->
+          <EssentialLink v-else v-bind="item" />
+        </template>
       </q-list>
     </q-drawer>
 
@@ -38,17 +54,25 @@ import { ref } from "vue";
 import EssentialLink from "@/components/EssentialLink.vue";
 
 const linksList = [
+  // ITEM COM DROPDOWN PARA USUÁRIO:
   {
-    label: "Home",
-    caption: "Página inical",
-    icon: "home",
-    link: "/",
-  },
-  {
-    label: "Carteira",
-    caption: "Digital",
-    icon: "account_balance_wallet",
-    link: "/CarteiraDigital",
+    label: "Usuário",
+    caption: "Gerenciamento",
+    icon: "person",
+    children: [
+      {
+        label: "Cadastrar",
+        caption: "Novo usuário",
+        icon: "person_add",
+        link: "/NovoCadastroUsuario",
+      },
+      {
+        label: "Gerenciar",
+        caption: "Lista de usuários",
+        icon: "manage_accounts",
+        link: "/GerenciarUsuario",
+      },
+    ],
   },
   {
     label: "E-mail",
@@ -57,10 +81,10 @@ const linksList = [
     link: "/FormContatoUsuario",
   },
   {
-    label: "Github",
-    caption: "Repositório",
-    icon: "school",
-    link: "https://github.com/carlospontocom/quasar-default",
+    label: "Carteira",
+    caption: "Digital",
+    icon: "account_balance_wallet",
+    link: "/CarteiraDigital",
   },
 ];
 
@@ -70,3 +94,12 @@ function toggleLeftDrawer() {
   leftDrawerOpen.value = !leftDrawerOpen.value;
 }
 </script>
+
+<style>
+.q-drawer .q-item__section--avatar,
+.q-drawer .q-item__section--side {
+  min-width: 28px !important;
+  padding-right: 0px !important;
+  margin-right: 8px !important;
+}
+</style>

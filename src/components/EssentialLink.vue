@@ -18,29 +18,30 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed } from "vue";
 
 const props = defineProps({
   label: {
     type: String,
-    required: true
+    required: true,
   },
 
   caption: {
     type: String,
-    default: ''
+    default: "",
   },
 
   link: {
     type: String,
-    default: '#'
+    default: "#",
   },
 
   icon: {
     type: String,
-    default: ''
-  }
-})
+    default: "",
+  },
+});
 
-const isExternal = computed(() => /^https?:\/\//i.test(props.link))
+const isExternal = computed(() => /^https?:\/\//i.test(props.link));
 </script>
+
