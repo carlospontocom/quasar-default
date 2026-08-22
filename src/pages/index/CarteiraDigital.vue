@@ -1,9 +1,9 @@
 <template>
   <q-page>
-    <h1>Conteúdo principal</h1>
+    <h2>Carteira digital</h2>
   </q-page>
 </template>
 
 <script setup>
-//
+//import styles css/scss
 </script>
