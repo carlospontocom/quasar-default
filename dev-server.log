@@ -22,3 +22,1904 @@
  » Pkg @quasar/app-vite... v3.8.0
  » Browser target......... baseline-widely-available
 
+[2m14:53:18[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "C:/Users/carlos/Desktop/Quasar-default/src/pages/index/AgendaUsuarios copy.vue" from " vue-router/auto-routes". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m vue-router/auto-routes[39m:23:32
+[33m  21 |          path: 'AgendaUsuarios%20copy',
+  22 |          name: '//AgendaUsuarios copy',
+  23 |          component: () => import('C:/Users/carlos/Desktop/Quasar-default/src/pages/index/AgendaUsuarios copy.vue'),
+     |                                  ^
+  24 |          /* no children */
+  25 |        },[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:31147:39)
+      at TransformPluginContext.error (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:31144:14)
+      at normalizeUrl (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28083:18)
+      at async file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28153:30
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28119:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:30932:14)
+      at async loadAndTransform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:20671:26)
+      at async viteTransformMiddleware (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:25205:20)
+[2m14:53:18[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /@id/__x00__vue-router/auto-routes. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m14:53:19[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'routes')
+[39m > ../../../../@id/__x00__vue-router/auto-routes?t=1787421173607:69:29
+ > ../../../../@vite/client:61:95
+ > ../../../../@vite/client:217:52
+ > ../../../../@vite/client:195:55
+ > HMRClient.queueUpdate ../../../../@vite/client:195:33
+ > handleMessage ../../../../@vite/client:976:4
+
+[2m15:05:59[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[VUE_ROUTER_R0010] Uncaught error during route navigation
+╰▶ fix: Register an error handler with `router.onError()` to handle navigation errors.
+[2m15:05:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mTypeError: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index.vue?t=1787421170348
+[2m15:05:59[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[VUE_ROUTER_R0011] Unexpected error when starting the router:
+╰▶ fix: Inspect the actual cause; a navigation guard or async component likely threw during the initial navigation.
+[2m15:05:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/FormContatoUsuario.vue
+[39m
+[2m16:18:59[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../componentes/CamposTextos.vue" from "src/pages/index/NovoCadastroUsuario.vue". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/carlos/Desktop/Quasar-default/src/pages/index/NovoCadastroUsuario.vue[39m:12:26
+[33m  1  |  import CamposTextos from "../componentes/CamposTextos.vue";
+     |                            ^
+  2  |  
+  3  |  const _sfc_main = {[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:31147:39)
+      at TransformPluginContext.error (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:31144:14)
+      at normalizeUrl (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28083:18)
+      at async file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28153:30
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28119:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:30932:14)
+      at async loadAndTransform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:20671:26)
+      at async viteTransformMiddleware (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:25205:20)
+[2m16:19:01[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/pages/index/NovoCadastroUsuario.vue. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../components/CamposTextos.vue" from "src/pages/index/NovoCadastroUsuario.vue". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/carlos/Desktop/Quasar-default/src/pages/index/NovoCadastroUsuario.vue[39m:12:26
+[33m  1  |  import CamposTextos from "../components/CamposTextos.vue";
+     |                            ^
+  2  |  
+  3  |  const _sfc_main = {[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:31147:39)
+      at TransformPluginContext.error (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:31144:14)
+      at normalizeUrl (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28083:18)
+      at async file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28153:30
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28119:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:30932:14)
+      at async loadAndTransform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:20671:26)
+      at async viteTransformMiddleware (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:25205:20)
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/pages/index/NovoCadastroUsuario.vue. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../components/CamposTextos.vue" from "src/pages/index/NovoCadastroUsuario.vue". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/carlos/Desktop/Quasar-default/src/pages/index/NovoCadastroUsuario.vue[39m:12:26
+[33m  1  |  import CamposTextos from "../components/CamposTextos.vue";
+     |                            ^
+  2  |  
+  3  |  const _sfc_main = {[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:31147:39)
+      at TransformPluginContext.error (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:31144:14)
+      at normalizeUrl (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28083:18)
+      at async file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28153:30
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28119:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:30932:14)
+      at async loadAndTransform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:20671:26)
+      at async viteTransformMiddleware (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:25205:20)
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/pages/index/NovoCadastroUsuario.vue. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../components/CamposTextos.vue" from "src/pages/index/NovoCadastroUsuario.vue". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/carlos/Desktop/Quasar-default/src/pages/index/NovoCadastroUsuario.vue[39m:12:26
+[33m  1  |  import CamposTextos from "../components/CamposTextos.vue";
+     |                            ^
+  2  |  
+  3  |  const _sfc_main = {[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:31147:39)
+      at TransformPluginContext.error (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:31144:14)
+      at normalizeUrl (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28083:18)
+      at async file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28153:30
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28119:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:30932:14)
+      at async loadAndTransform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:20671:26)
+      at async viteTransformMiddleware (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:25205:20)
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../components/CamposTextos.vue" from "src/pages/index/NovoCadastroUsuario.vue". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/carlos/Desktop/Quasar-default/src/pages/index/NovoCadastroUsuario.vue[39m:12:26
+[33m  1  |  import CamposTextos from "../components/CamposTextos.vue";
+     |                            ^
+  2  |  
+  3  |  const _sfc_main = {[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:31147:39)
+      at TransformPluginContext.error (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:31144:14)
+      at normalizeUrl (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28083:18)
+      at async file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28153:30
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:28119:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:30932:14)
+      at async loadAndTransform (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:20671:26)
+      at async viteTransformMiddleware (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:25205:20)
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/pages/index/NovoCadastroUsuario.vue. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m16:19:02[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[VUE_ROUTER_R0010] Uncaught error during route navigation
+╰▶ fix: Register an error handler with `router.onError()` to handle navigation errors.
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mTypeError: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787426340045
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787426340045
+[39m
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787426340045
+[39m
+[2m16:19:02[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[VUE_ROUTER_R0010] Uncaught error during route navigation
+╰▶ fix: Register an error handler with `router.onError()` to handle navigation errors.
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mTypeError: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787426340045
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787426340045
+[39m
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787426340045
+[39m
+[2m16:19:02[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[VUE_ROUTER_R0010] Uncaught error during route navigation
+╰▶ fix: Register an error handler with `router.onError()` to handle navigation errors.
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mTypeError: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787426340045
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787426340045
+[39m
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787426340045
+[39m
+[2m16:19:02[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[VUE_ROUTER_R0010] Uncaught error during route navigation
+╰▶ fix: Register an error handler with `router.onError()` to handle navigation errors.
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mTypeError: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787426340045
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787426340045
+[39m
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787426340045
+[39m
+[2m16:19:02[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[VUE_ROUTER_R0010] Uncaught error during route navigation
+╰▶ fix: Register an error handler with `router.onError()` to handle navigation errors.
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mTypeError: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787426340045
+[2m16:19:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787426340045
+[39m
+[2m16:24:24[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/components/CamposTextos.vue. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m16:36:17[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "placeholder" was accessed during render but is not defined on instance. 
+  at <CampoTexto> 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m16:36:17[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "placeholder" was accessed during render but is not defined on instance. 
+  at <CampoTexto> 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m16:36:17[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "placeholder" was accessed during render but is not defined on instance. 
+  at <CampoTexto> 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m16:36:17[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "placeholder" was accessed during render but is not defined on instance. 
+  at <CampoTexto> 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m16:36:17[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "placeholder" was accessed during render but is not defined on instance. 
+  at <CampoTexto> 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m16:36:17[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "placeholder" was accessed during render but is not defined on instance. 
+  at <CampoTexto> 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:05:56[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:05:56[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:05:57[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:05:57[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:21:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Failed to resolve component: Button
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:21:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:21:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Failed to resolve component: Button
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:21:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:21:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Failed to resolve component: Button
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:21:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:21:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Failed to resolve component: Button
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:21:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:21:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Failed to resolve component: Button
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:21:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:21:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Failed to resolve component: Button
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:21:41[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Failed to resolve component: Button
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <App>
+[2m17:21:41[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <App>
+[2m17:25:23[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Failed to resolve component: Button
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:25:23[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:25:24[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Failed to resolve component: Button
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:25:24[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:25:24[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Failed to resolve component: Button
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:25:24[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:25:24[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Failed to resolve component: Button
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:25:24[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:25:24[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Failed to resolve component: Button
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:25:24[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:25:24[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Failed to resolve component: Button
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:25:34[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Failed to resolve component: Button
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <App>
+[2m17:25:34[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <App>
+[2m17:26:29[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:26:29[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:26:29[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:26:47[22m [31m[1m[vite][22m[39m [31mInternal server error: Attribute name cannot contain U+0022 ("), U+0027 ('), and U+003C (<).[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mC:/Users/carlos/Desktop/Quasar-default/src/pages/index/NovoCadastroUsuario.vue[39m:16:48
+[33m  14 |          <!--- telefone-->
+  15 |  
+  16 |          <ButtonDefault label="Cadastrar" color:"primary"/>
+     |                                                  ^
+  17 |        </div>
+  18 |      </div>[39m
+      at createCompilerError (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1378:17)
+      at Object.emitError [as onerr] (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3035:5)
+      at Tokenizer.stateInAttrName (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:868:16)
+      at Tokenizer.parse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1117:16)
+      at Object.baseParse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3074:13)
+      at Object.parse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-dom\dist\compiler-dom.cjs.js:913:23)
+      at Object.parse$1 [as parse] (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:1849:24)
+      at createDescriptor (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at handleHotUpdate (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/@vitejs/plugin-vue/dist/index.mjs:1197:25)
+      at async handleHMRUpdate (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:27076:28)
+[2m17:26:47[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/pages/index/NovoCadastroUsuario.vue. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m17:26:47[22m [31m[1m[vite][22m[39m [31mInternal server error: Attribute name cannot contain U+0022 ("), U+0027 ('), and U+003C (<).[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mC:/Users/carlos/Desktop/Quasar-default/src/pages/index/NovoCadastroUsuario.vue[39m:16:48
+[33m  14 |          <!--- telefone-->
+  15 |  
+  16 |          <ButtonDefault label="Cadastrar" color:"primary"/>
+     |                                                  ^
+  17 |        </div>
+  18 |      </div>[39m
+      at createCompilerError (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1378:17)
+      at Object.emitError [as onerr] (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3035:5)
+      at Tokenizer.stateInAttrName (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:868:16)
+      at Tokenizer.parse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1117:16)
+      at Object.baseParse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3074:13)
+      at Object.parse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-dom\dist\compiler-dom.cjs.js:913:23)
+      at Object.parse$1 [as parse] (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:1849:24)
+      at createDescriptor (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at handleHotUpdate (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/@vitejs/plugin-vue/dist/index.mjs:1197:25)
+      at async handleHMRUpdate (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:27076:28)
+[2m17:26:47[22m [31m[1m[vite][22m[39m [31mInternal server error: Attribute name cannot contain U+0022 ("), U+0027 ('), and U+003C (<).[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mC:/Users/carlos/Desktop/Quasar-default/src/pages/index/NovoCadastroUsuario.vue[39m:16:48
+[33m  14 |          <!--- telefone-->
+  15 |  
+  16 |          <ButtonDefault label="Cadastrar" color:"primary"/>
+     |                                                  ^
+  17 |        </div>
+  18 |      </div>[39m
+      at createCompilerError (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1378:17)
+      at Object.emitError [as onerr] (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3035:5)
+      at Tokenizer.stateInAttrName (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:868:16)
+      at Tokenizer.parse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1117:16)
+      at Object.baseParse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3074:13)
+      at Object.parse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-dom\dist\compiler-dom.cjs.js:913:23)
+      at Object.parse$1 [as parse] (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:1849:24)
+      at createDescriptor (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at handleHotUpdate (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/@vitejs/plugin-vue/dist/index.mjs:1197:25)
+      at async handleHMRUpdate (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:27076:28)
+[2m17:26:47[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/pages/index/NovoCadastroUsuario.vue. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m17:26:47[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[VUE_ROUTER_R0010] Uncaught error during route navigation
+╰▶ fix: Register an error handler with `router.onError()` to handle navigation errors.
+[2m17:26:47[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mTypeError: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787430406897
+[2m17:26:47[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/pages/index/NovoCadastroUsuario.vue. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m17:26:47[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787430406897
+[39m
+[2m17:26:47[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787430406897
+[39m
+[2m17:26:47[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[VUE_ROUTER_R0010] Uncaught error during route navigation
+╰▶ fix: Register an error handler with `router.onError()` to handle navigation errors.
+[2m17:26:47[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mTypeError: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787430406897
+[2m17:26:47[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787430406897
+[39m
+[2m17:26:51[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:26:51[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:26:51[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:27:36[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm> 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:27:36[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm> 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:27:36[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm> 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:27:36[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm> 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:31:10[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:31:10[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:31:11[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:31:11[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:36:49[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:36:49[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected Array, got String with value "validarNome". 
+  at <QInput v-model="" placeholder="Nome completo" rules="validarNome" > 
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:36:49[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:36:49[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected Array, got String with value "validarNome". 
+  at <QInput v-model="" placeholder="Nome completo" rules="validarNome" > 
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:36:50[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:36:50[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected Array, got String with value "validarNome". 
+  at <QInput v-model="" placeholder="Nome completo" rules="validarNome" > 
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:36:50[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:36:50[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected Array, got String with value "validarNome". 
+  at <QInput v-model="" placeholder="Nome completo" rules="validarNome" > 
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:36:50[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:36:50[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected Array, got String with value "validarNome". 
+  at <QInput v-model="" placeholder="Nome completo" rules="validarNome" > 
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:36:53[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mUnknown validation pattern rule: "v"
+[2m17:36:57[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <App>
+[2m17:36:57[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected Array, got String with value "validarNome". 
+  at <QInput v-model="" placeholder="Nome completo" rules="validarNome" > 
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <App>
+[2m17:37:00[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mUnknown validation pattern rule: "v"
+[2m17:37:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:37:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length < 5) || "Campo deve ter mais de 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:37:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:37:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length < 5) || "Campo deve ter mais de 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:37:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:37:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length < 5) || "Campo deve ter mais de 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:37:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:37:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length < 5) || "Campo deve ter mais de 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:39:06[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:39:06[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length > 5) || "Campo deve ter mais de 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:39:06[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:39:06[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length > 5) || "Campo deve ter mais de 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:39:06[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:39:06[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length > 5) || "Campo deve ter mais de 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:39:06[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:39:06[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length > 5) || "Campo deve ter mais de 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:39:06[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:39:06[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length > 5) || "Campo deve ter mais de 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:40:14[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:40:14[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length >= 5) || "Campo deve ter pelo menos 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:40:14[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:40:14[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length >= 5) || "Campo deve ter pelo menos 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:40:14[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:40:14[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length >= 5) || "Campo deve ter pelo menos 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:40:14[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:40:14[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length >= 5) || "Campo deve ter pelo menos 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:40:14[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:40:14[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length >= 5) || "Campo deve ter pelo menos 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:40:14[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:40:14[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length >= 5) || "Campo deve ter pelo menos 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:42:22[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:42:22[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length >= 5) || "Campo deve ter mais de 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:42:23[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:42:23[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length >= 5) || "Campo deve ter mais de 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:42:23[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:42:23[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length >= 5) || "Campo deve ter mais de 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:42:23[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:42:23[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length >= 5) || "Campo deve ter mais de 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:42:23[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:42:23[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length >= 5) || "Campo deve ter mais de 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:42:26[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <App>
+[2m17:42:26[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Invalid prop: type check failed for prop "rules". Expected String with value "(val) => !!val || "Campo obrigatório",(val) => (val && val.length >= 5) || "Campo deve ter mais de 5 letras"", got Array  
+  at <CampoTexto placeholder="Nome completo" modelValue=undefined onUpdate:modelValue=fn  ... > 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <App>
+[2m17:43:51[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:43:51[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:44:01[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <App>
+[2m17:46:57[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:52:38[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:52:39[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:52:39[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /@id/__x00__vue-router/auto-routes. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m17:52:39[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Cannot read properties of undefined (reading 'routes')
+[39m > ../../../../@id/__x00__vue-router/auto-routes?t=1787431955823:75:29
+ > ../../../../@vite/client:61:95
+ > ../../../../@vite/client:217:52
+ > ../../../../@vite/client:195:55
+ > HMRClient.queueUpdate ../../../../@vite/client:195:33
+ > handleMessage ../../../../@vite/client:976:4
+
+[2m17:53:02[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:53:06[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:53:14[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:53:40[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:53:40[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:53:40[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:53:40[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:54:03[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <App>
+[2m17:56:05[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:56:05[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:56:05[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:56:05[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:56:05[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m17:56:14[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "nome" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <App>
+[2m18:04:56[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:04:56[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:04:57[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:04:58[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:06:43[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:09:04[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouterView> 
+  at <App>
+[2m18:10:05[22m [31m[1m[vite][22m[39m [31mInternal server error: Attribute name cannot contain U+0022 ("), U+0027 ('), and U+003C (<).[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mC:/Users/carlos/Desktop/Quasar-default/src/pages/index/NovoCadastroUsuario.vue[39m:19:48
+[33m  17 |          />
+  18 |  
+  19 |          <ButtonDefault label="Cadastrar" color:"green"/>
+     |                                                  ^
+  20 |        </q-form>
+  21 |      </div>[39m
+      at createCompilerError (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1378:17)
+      at Object.emitError [as onerr] (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3035:5)
+      at Tokenizer.stateInAttrName (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:868:16)
+      at Tokenizer.parse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1117:16)
+      at Object.baseParse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3074:13)
+      at Object.parse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-dom\dist\compiler-dom.cjs.js:913:23)
+      at Object.parse$1 [as parse] (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:1849:24)
+      at createDescriptor (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at handleHotUpdate (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/@vitejs/plugin-vue/dist/index.mjs:1197:25)
+      at async handleHMRUpdate (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:27076:28)
+[2m18:10:06[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/pages/index/NovoCadastroUsuario.vue. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m18:10:06[22m [31m[1m[vite][22m[39m [31mInternal server error: Attribute name cannot contain U+0022 ("), U+0027 ('), and U+003C (<).[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mC:/Users/carlos/Desktop/Quasar-default/src/pages/index/NovoCadastroUsuario.vue[39m:19:48
+[33m  17 |          />
+  18 |  
+  19 |          <ButtonDefault label="Cadastrar" color:"green"/>
+     |                                                  ^
+  20 |        </q-form>
+  21 |      </div>[39m
+      at createCompilerError (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1378:17)
+      at Object.emitError [as onerr] (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3035:5)
+      at Tokenizer.stateInAttrName (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:868:16)
+      at Tokenizer.parse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1117:16)
+      at Object.baseParse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3074:13)
+      at Object.parse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-dom\dist\compiler-dom.cjs.js:913:23)
+      at Object.parse$1 [as parse] (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:1849:24)
+      at createDescriptor (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at handleHotUpdate (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/@vitejs/plugin-vue/dist/index.mjs:1197:25)
+      at async handleHMRUpdate (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:27076:28)
+[2m18:10:06[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/pages/index/NovoCadastroUsuario.vue. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m18:10:07[22m [31m[1m[vite][22m[39m [31mInternal server error: Attribute name cannot contain U+0022 ("), U+0027 ('), and U+003C (<).[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mC:/Users/carlos/Desktop/Quasar-default/src/pages/index/NovoCadastroUsuario.vue[39m:19:48
+[33m  17 |          />
+  18 |  
+  19 |          <ButtonDefault label="Cadastrar" color:"green"/>
+     |                                                  ^
+  20 |        </q-form>
+  21 |      </div>[39m
+      at createCompilerError (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1378:17)
+      at Object.emitError [as onerr] (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3035:5)
+      at Tokenizer.stateInAttrName (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:868:16)
+      at Tokenizer.parse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1117:16)
+      at Object.baseParse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3074:13)
+      at Object.parse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-dom\dist\compiler-dom.cjs.js:913:23)
+      at Object.parse$1 [as parse] (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:1849:24)
+      at createDescriptor (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at handleHotUpdate (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/@vitejs/plugin-vue/dist/index.mjs:1197:25)
+      at async handleHMRUpdate (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:27076:28)
+[2m18:10:07[22m [31m[1m[vite][22m[39m [31mInternal server error: Attribute name cannot contain U+0022 ("), U+0027 ('), and U+003C (<).[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mC:/Users/carlos/Desktop/Quasar-default/src/pages/index/NovoCadastroUsuario.vue[39m:19:48
+[33m  17 |          />
+  18 |  
+  19 |          <ButtonDefault label="Cadastrar" color:"green"/>
+     |                                                  ^
+  20 |        </q-form>
+  21 |      </div>[39m
+      at createCompilerError (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1378:17)
+      at Object.emitError [as onerr] (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3035:5)
+      at Tokenizer.stateInAttrName (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:868:16)
+      at Tokenizer.parse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1117:16)
+      at Object.baseParse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3074:13)
+      at Object.parse (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-dom\dist\compiler-dom.cjs.js:913:23)
+      at Object.parse$1 [as parse] (C:\Users\carlos\Desktop\Quasar-default\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:1849:24)
+      at createDescriptor (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at handleHotUpdate (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/@vitejs/plugin-vue/dist/index.mjs:1197:25)
+      at async handleHMRUpdate (file:///C:/Users/carlos/Desktop/Quasar-default/node_modules/vite/dist/node/chunks/node.js:27076:28)
+[2m18:10:07[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/pages/index/NovoCadastroUsuario.vue. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m18:10:07[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[VUE_ROUTER_R0010] Uncaught error during route navigation
+╰▶ fix: Register an error handler with `router.onError()` to handle navigation errors.
+[2m18:10:07[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mTypeError: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787433001504
+[2m18:10:07[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787433001504
+[39m
+[2m18:10:07[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/pages/index/NovoCadastroUsuario.vue. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m18:10:07[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787433001504
+[39m
+[2m18:10:07[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[VUE_ROUTER_R0010] Uncaught error during route navigation
+╰▶ fix: Register an error handler with `router.onError()` to handle navigation errors.
+[2m18:10:07[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mTypeError: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787433001504
+[2m18:10:07[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: Failed to fetch dynamically imported module: http://localhost:9000/src/pages/index/NovoCadastroUsuario.vue?t=1787433001504
+[39m
+[2m18:10:13[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:10:13[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:10:13[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:10:13[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:10:37[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:10:38[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:10:38[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:10:38[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:10:38[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:10:48[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:10:48[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:10:48[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:10:48[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:10:48[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:10:48[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Property "email" was accessed during render but is not defined on instance. 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:11:55[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: inject() can only be used inside setup() or functional components.
+[2m18:11:59[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: inject() can only be used inside setup() or functional components.
+[2m18:15:39[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Unhandled error during execution of component event handler 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:15:40[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: $q.notify is not a function
+[39m > cadastrarUsuario src/pages/index/NovoCadastroUsuario.vue:47:6
+    45 |  
+    46 |  const cadastrarUsuario = () => {
+    47 |    $q.notify({
+       |        ^
+    48 |      message: "Cadastrado com sucesso!",
+    49 |      color: "green",
+ > callWithErrorHandling node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:199:18
+ > callWithAsyncErrorHandling node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:206:16
+ > emit node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:4534:4
+ > node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:8458:44
+ > node_modules/quasar/dist/quasar.client.js:14774:36
+
+[2m18:15:42[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Unhandled error during execution of component event handler 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:15:43[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: $q.notify is not a function
+[39m > cadastrarUsuario src/pages/index/NovoCadastroUsuario.vue:47:6
+    45 |  
+    46 |  const cadastrarUsuario = () => {
+    47 |    $q.notify({
+       |        ^
+    48 |      message: "Cadastrado com sucesso!",
+    49 |      color: "green",
+ > callWithErrorHandling node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:199:18
+ > callWithAsyncErrorHandling node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:206:16
+ > emit node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:4534:4
+ > node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:8458:44
+ > node_modules/quasar/dist/quasar.client.js:14774:36
+
+[2m18:15:45[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Unhandled error during execution of component event handler 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:15:45[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: $q.notify is not a function
+[39m > cadastrarUsuario src/pages/index/NovoCadastroUsuario.vue:47:6
+    45 |  
+    46 |  const cadastrarUsuario = () => {
+    47 |    $q.notify({
+       |        ^
+    48 |      message: "Cadastrado com sucesso!",
+    49 |      color: "green",
+ > callWithErrorHandling node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:199:18
+ > callWithAsyncErrorHandling node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:206:16
+ > emit node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:4534:4
+ > node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:8458:44
+ > node_modules/quasar/dist/quasar.client.js:14774:36
+
+[2m18:16:48[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Unhandled error during execution of component event handler 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:16:49[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: $q.notify is not a function
+[39m > cadastrarUsuario src/pages/index/NovoCadastroUsuario.vue:47:6
+    45 |  
+    46 |  const cadastrarUsuario = () => {
+    47 |    $q.notify({
+       |        ^
+    48 |      message: "Cadastrado com sucesso!",
+    49 |      color: "green",
+ > callWithErrorHandling node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:199:18
+ > callWithAsyncErrorHandling node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:206:16
+ > emit node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:4534:4
+ > node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:8458:44
+ > node_modules/quasar/dist/quasar.client.js:14774:36
+
+[2m18:17:08[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[Vue warn]: Unhandled error during execution of component event handler 
+  at <QForm class="column q-gutter-md" onSubmit=fn<cadastrarUsuario> > 
+  at <QPage class="wrapper" > 
+  at <NovoCadastroUsuario onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< {} > > 
+  at <RouterView> 
+  at <App>
+[2m18:17:08[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mTypeError[22m: $q.notify is not a function
+[39m > cadastrarUsuario src/pages/index/NovoCadastroUsuario.vue:47:6
+    45 |  
+    46 |  const cadastrarUsuario = () => {
+    47 |    $q.notify({
+       |        ^
+    48 |      message: "Cadastrado com sucesso!",
+    49 |      color: "green",
+ > callWithErrorHandling node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:199:18
+ > callWithAsyncErrorHandling node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:206:16
+ > emit node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:4534:4
+ > node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js:8458:44
+ > node_modules/quasar/dist/quasar.client.js:14774:36
+
+
+ App • Recompiling quasar.config.js (no env prefix; dotenv files: .env)...
+ App • Applying quasar.config changes...
+[2m18:20:29[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mNotify: wrong position {"message":"Cadastrado com sucesso!","color":"green","position":{"window":"[Circular]","self":"[Circular]","document":{"location":{"ancestorOrigins":{},"href":"http://localhost:9000/#/NovoCadastroUsuario","origin":"http://localhost:9000","protocol":"http:","host":"localhost:9000","hostname":"localhost","port":"9000","pathname":"/","search":"","hash":"#/NovoCadastroUsuario"}},"name":"","location":"[Circular]","customElements":{},"history":{},"navigation":{},"locationbar":{},"menubar":{},"personalbar":{},"scrollbars":{},"statusbar":{},"toolbar":{},"status":"","closed":false,"frames":"[Circular]","length":0,"top":"[Circular]","opener":null,"parent":"[Circular]","frameElement":null,"navigator":{},"origin":"http://localhost:9000","external":{},"screen":{},"innerWidth":1164,"innerHeight":567,"scrollX":0,"pageXOffset":0,"scrollY":0,"pageYOffset":0,"visualViewport":{},"screenX":0,"screenY":0,"outerWidth":1210,"outerHeight":643,"devicePixelRatio":1.587499976158142,"event":{"isTrusted":true,"_vts":1787433629315},"clientInformation":"[Circular]","screenLeft":0,"screenTop":0,"styleMedia":{},"onsearch":null,"onappinstalled":null,"onbeforeinstallprompt":null,"onabort":null,"onbeforeinput":null,"onbeforematch":null,"onbeforetoggle":null,"onblur":null,"oncancel":null,"oncanplay":null,"oncanplaythrough":null,"onchange":null,"onclick":null,"onclose":null,"oncommand":null,"oncontentvisibilityautostatechange":null,"oncontextlost":null,"oncontextmenu":null,"oncontextrestored":null,"oncuechange":null,"ondblclick":null,"ondrag":null,"ondragend":null,"ondragenter":null,"ondragleave":null,"ondragover":null,"ondragstart":null,"ondrop":null,"ondurationchange":null,"onemptied":null,"onended":null,"onerror":null,"onfocus":null,"onformdata":null,"oninput":null,"oninvalid":null,"onkeydown":null,"onkeypress":null,"onkeyup":null,"onload":null,"onloadeddata":null,"onloadedmetadata":null,"onloadstart":null,"onmousedown":null,"onmouseenter":null,"onmouseleave":null,"onmousemove":null,"onmouseout":null,"onmouseover":null,"onmouseup":null,"onmousewheel":null,"onpause":null,"onplay":null,"onplaying":null,"onprogress":null,"onratechange":null,"onreset":null,"onresize":null,"onscroll":null,"onscrollend":null,"onsecuritypolicyviolation":null,"onseeked":null,"onseeking":null,"onselect":null,"onslotchange":null,"onstalled":null,"onsubmit":null,"onsuspend":null,"ontimeupdate":null,"ontoggle":null,"onvolumechange":null,"onwaiting":null,"onwebkitanimationend":null,"onwebkitanimationiteration":null,"onwebkitanimationstart":null,"onwebkittransitionend":null,"onwheel":null,"onauxclick":null,"ongotpointercapture":null,"onlostpointercapture":null,"onpointerdown":null,"onpointermove":null,"onpointerup":null,"onpointercancel":null,"onpointerover":null,"onpointerout":null,"onpointerenter":null,"onpointerleave":null,"onselectstart":null,"onselectionchange":null,"onanimationcancel":null,"onanimationend":null,"onanimationiteration":null,"onanimationstart":null,"ontransitionrun":null,"ontransitionstart":null,"ontransitionend":null,"ontransitioncancel":null,"onbeforexrselect":null,"onafterprint":null,"onbeforeprint":null,"onbeforeunload":null,"onhashchange":null,"onlanguagechange":null,"onmessage":null,"onmessageerror":null,"onoffline":null,"ononline":null,"onpagehide":null,"onpageshow":null,"onpopstate":null,"onrejectionhandled":null,"onstorage":null,"onunhandledrejection":null,"onunload":null,"isSecureContext":true,"crossOriginIsolated":false,"scheduler":{},"performance":{"timeOrigin":1787433512608,"timing":{"connectStart":1787433512830,"secureConnectionStart":0,"unloadEventEnd":1787433513924,"domainLookupStart":1787433512830,"domainLookupEnd":1787433512830,"responseStart":1787433513701,"connectEnd":1787433512956,"responseEnd":1787433513711,"requestStart":1787433512957,"domLoading":1787433513962,"redirectStart":0,"loadEventEnd":1787433515480,"domComplete":1787433515479,"navigationStart":1787433512608,"loadEventStart":1787433515480,"domContentLoadedEventEnd":1787433515465,"unloadEventStart":1787433513924,"redirectEnd":0,"domInteractive":1787433514145,"fetchStart":1787433512828,"domContentLoadedEventStart":1787433515465},"navigation":{"type":1,"redirectCount":0}},"trustedTypes":{},"crypto":{},"indexedDB":{},"localStorage":{},"sessionStorage":{},"chrome":{"app":{"isInstalled":false,"InstallState":{"DISABLED":"disabled","INSTALLED":"installed","NOT_INSTALLED":"not_installed"},"RunningState":{"CANNOT_RUN":"cannot_run","READY_TO_RUN":"ready_to_run","RUNNING":"running"}}},"crashReport":{},"cookieStore":{},"ondevicemotion":null,"ondeviceorientation":null,"ondeviceorientationabsolute":null,"onpointerrawupdate":null,"caches":{},"documentPictureInPicture":{},"sharedStorage":{},"ontouchcancel":null,"ontouchend":null,"ontouchmove":null,"ontouchstart":null,"originAgentCluster":true,"viewport":{},"onorientationchange":null,"orientation":0,"onpageswap":null,"onpagereveal":null,"credentialless":false,"fence":null,"launchQueue":{},"speechSynthesis":{},"onscrollsnapchange":null,"onscrollsnapchanging":null,"ongamepadconnected":null,"ongamepaddisconnected":null,"__INTLIFY_PROD_DEVTOOLS__":true,"__QUASAR_SSR_CLIENT__":false,"__QUASAR_SSR_PWA__":false,"__QUASAR_SSR_SERVER__":false,"__QUASAR_SSR__":false,"__QUASAR_VERSION__":"2.26.0","__VUE_I18N_FULL_INSTALL__":true,"__VUE_I18N_LEGACY_API__":false,"__VUE_I18N_PROD_DEVTOOLS__":true,"__VUE_OPTIONS_API__":false,"__VUE_PROD_DEVTOOLS__":true,"__VUE_PROD_HYDRATION_MISMATCH_DETAILS__":true,"__VUE_HMR_RUNTIME__":{"CHANGED_FILE":"C:/Users/carlos/Desktop/Quasar-default/src/pages/index/NovoCadastroUsuario.vue"},"__VUE_INSTANCE_SETTERS__":[null],"__VUE_SSR_SETTERS__":[null],"devtoolsFormatters":[{"__vue_custom_formatter":true}],"__VUE_DEVTOOLS_COMPONENT_INSPECTOR_ENABLED__":true,"__VUE_DEVTOOLS_KIT_TIMELINE_LAYERS":[],"__VUE_DEVTOOLS_KIT_INSPECTOR__":[],"__VUE_DEVTOOLS_KIT_APP_RECORDS__":[],"__VUE_DEVTOOLS_KIT_ACTIVE_APP_RECORD__":{},"__VUE_DEVTOOLS_KIT_ACTIVE_APP_RECORD_ID__":"","__VUE_DEVTOOLS_KIT_CUSTOM_TABS__":[],"__VUE_DEVTOOLS_KIT_CUSTOM_COMMANDS__":[],"__VUE_DEVTOOLS_KIT_GLOBAL_STATE__":{"connected":false,"clientConnected":false,"vitePluginDetected":true,"appRecords":[],"activeAppRecordId":"","tabs":[],"commands":[],"highPerfModeEnabled":true,"devtoolsClientDetected":{},"perfUniqueGroupId":0,"timelineLayersState":{"recordingState":false,"mouseEventEnabled":false,"keyboardEventEnabled":false,"componentEventEnabled":false,"performanceEventEnabled":false,"selected":""}},"__VUE_DEVTOOLS_KIT_PLUGIN_BUFFER__":[],"__VUE_DEVTOOLS_HOOK":{"_hooks":{},"_deprecatedHooks":{}},"__VUE_DEVTOOLS_KIT__REGISTERED_PLUGIN_APPS__":{},"__VUE_DEVTOOLS_ROUTER_INFO__":{"currentRoute":null,"routes":[]},"__VUE_DEVTOOLS_ROUTER__":{},"__VUE_DEVTOOLS_ENV__":{"vitePluginDetected":false},"__VUE_DEVTOOLS_KIT_CONTEXT__":{"hooks":{"_hooks":{"addInspector":[null],"sendInspectorTree":[null],"sendInspectorState":[null],"customInspectorSelectNode":[null],"timelineLayerAdded":[null],"timelineEventAdded":[null],"getComponentInstances":[null],"getComponentBounds":[null],"getComponentName":[null],"componentHighlight":[null],"componentUnhighlight":[null]},"_deprecatedHooks":{}},"state":{"connected":false,"clientConnected":false,"vitePluginDetected":true,"appRecords":"[Circular]","activeAppRecordId":"","tabs":"[Circular]","commands":"[Circular]","highPerfModeEnabled":true,"devtoolsClientDetected":"[Circular]","perfUniqueGroupId":0,"timelineLayersState":"[Circular]","activeAppRecord":"[Circular]"},"api":{}},"__VUE_DEVTOOLS_NEXT_APP_RECORD_INFO__":{"id":0,"appIds":{}},"__VUE_DEVTOOLS_KIT_MESSAGE_CHANNELS__":[],"__VUE_DEVTOOLS_KIT_RPC_CLIENT__":null,"__VUE_DEVTOOLS_KIT_RPC_SERVER__":null,"__VUE_DEVTOOLS_KIT_VITE_RPC_CLIENT__":null,"__VUE_DEVTOOLS_KIT_VITE_RPC_SERVER__":null,"__VUE_DEVTOOLS_KIT_BROADCAST_RPC_SERVER__":null,"__VUE__":true,"__VUE_DEVTOOLS_HOOK_REPLAY__":null}}
+[2m18:20:31[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mNotify: wrong position {"message":"Cadastrado com sucesso!","color":"green","position":{"window":"[Circular]","self":"[Circular]","document":{"location":{"ancestorOrigins":{},"href":"http://localhost:9000/#/NovoCadastroUsuario","origin":"http://localhost:9000","protocol":"http:","host":"localhost:9000","hostname":"localhost","port":"9000","pathname":"/","search":"","hash":"#/NovoCadastroUsuario"}},"name":"","location":"[Circular]","customElements":{},"history":{},"navigation":{},"locationbar":{},"menubar":{},"personalbar":{},"scrollbars":{},"statusbar":{},"toolbar":{},"status":"","closed":false,"frames":"[Circular]","length":0,"top":"[Circular]","opener":null,"parent":"[Circular]","frameElement":null,"navigator":{},"origin":"http://localhost:9000","external":{},"screen":{},"innerWidth":1164,"innerHeight":567,"scrollX":0,"pageXOffset":0,"scrollY":0,"pageYOffset":0,"visualViewport":{},"screenX":0,"screenY":0,"outerWidth":1210,"outerHeight":643,"devicePixelRatio":1.587499976158142,"event":{"isTrusted":true,"_vts":1787433631737},"clientInformation":"[Circular]","screenLeft":0,"screenTop":0,"styleMedia":{},"onsearch":null,"onappinstalled":null,"onbeforeinstallprompt":null,"onabort":null,"onbeforeinput":null,"onbeforematch":null,"onbeforetoggle":null,"onblur":null,"oncancel":null,"oncanplay":null,"oncanplaythrough":null,"onchange":null,"onclick":null,"onclose":null,"oncommand":null,"oncontentvisibilityautostatechange":null,"oncontextlost":null,"oncontextmenu":null,"oncontextrestored":null,"oncuechange":null,"ondblclick":null,"ondrag":null,"ondragend":null,"ondragenter":null,"ondragleave":null,"ondragover":null,"ondragstart":null,"ondrop":null,"ondurationchange":null,"onemptied":null,"onended":null,"onerror":null,"onfocus":null,"onformdata":null,"oninput":null,"oninvalid":null,"onkeydown":null,"onkeypress":null,"onkeyup":null,"onload":null,"onloadeddata":null,"onloadedmetadata":null,"onloadstart":null,"onmousedown":null,"onmouseenter":null,"onmouseleave":null,"onmousemove":null,"onmouseout":null,"onmouseover":null,"onmouseup":null,"onmousewheel":null,"onpause":null,"onplay":null,"onplaying":null,"onprogress":null,"onratechange":null,"onreset":null,"onresize":null,"onscroll":null,"onscrollend":null,"onsecuritypolicyviolation":null,"onseeked":null,"onseeking":null,"onselect":null,"onslotchange":null,"onstalled":null,"onsubmit":null,"onsuspend":null,"ontimeupdate":null,"ontoggle":null,"onvolumechange":null,"onwaiting":null,"onwebkitanimationend":null,"onwebkitanimationiteration":null,"onwebkitanimationstart":null,"onwebkittransitionend":null,"onwheel":null,"onauxclick":null,"ongotpointercapture":null,"onlostpointercapture":null,"onpointerdown":null,"onpointermove":null,"onpointerup":null,"onpointercancel":null,"onpointerover":null,"onpointerout":null,"onpointerenter":null,"onpointerleave":null,"onselectstart":null,"onselectionchange":null,"onanimationcancel":null,"onanimationend":null,"onanimationiteration":null,"onanimationstart":null,"ontransitionrun":null,"ontransitionstart":null,"ontransitionend":null,"ontransitioncancel":null,"onbeforexrselect":null,"onafterprint":null,"onbeforeprint":null,"onbeforeunload":null,"onhashchange":null,"onlanguagechange":null,"onmessage":null,"onmessageerror":null,"onoffline":null,"ononline":null,"onpagehide":null,"onpageshow":null,"onpopstate":null,"onrejectionhandled":null,"onstorage":null,"onunhandledrejection":null,"onunload":null,"isSecureContext":true,"crossOriginIsolated":false,"scheduler":{},"performance":{"timeOrigin":1787433512608,"timing":{"connectStart":1787433512830,"secureConnectionStart":0,"unloadEventEnd":1787433513924,"domainLookupStart":1787433512830,"domainLookupEnd":1787433512830,"responseStart":1787433513701,"connectEnd":1787433512956,"responseEnd":1787433513711,"requestStart":1787433512957,"domLoading":1787433513962,"redirectStart":0,"loadEventEnd":1787433515480,"domComplete":1787433515479,"navigationStart":1787433512608,"loadEventStart":1787433515480,"domContentLoadedEventEnd":1787433515465,"unloadEventStart":1787433513924,"redirectEnd":0,"domInteractive":1787433514145,"fetchStart":1787433512828,"domContentLoadedEventStart":1787433515465},"navigation":{"type":1,"redirectCount":0}},"trustedTypes":{},"crypto":{},"indexedDB":{},"localStorage":{},"sessionStorage":{},"chrome":{"app":{"isInstalled":false,"InstallState":{"DISABLED":"disabled","INSTALLED":"installed","NOT_INSTALLED":"not_installed"},"RunningState":{"CANNOT_RUN":"cannot_run","READY_TO_RUN":"ready_to_run","RUNNING":"running"}}},"crashReport":{},"cookieStore":{},"ondevicemotion":null,"ondeviceorientation":null,"ondeviceorientationabsolute":null,"onpointerrawupdate":null,"caches":{},"documentPictureInPicture":{},"sharedStorage":{},"ontouchcancel":null,"ontouchend":null,"ontouchmove":null,"ontouchstart":null,"originAgentCluster":true,"viewport":{},"onorientationchange":null,"orientation":0,"onpageswap":null,"onpagereveal":null,"credentialless":false,"fence":null,"launchQueue":{},"speechSynthesis":{},"onscrollsnapchange":null,"onscrollsnapchanging":null,"ongamepadconnected":null,"ongamepaddisconnected":null,"__INTLIFY_PROD_DEVTOOLS__":true,"__QUASAR_SSR_CLIENT__":false,"__QUASAR_SSR_PWA__":false,"__QUASAR_SSR_SERVER__":false,"__QUASAR_SSR__":false,"__QUASAR_VERSION__":"2.26.0","__VUE_I18N_FULL_INSTALL__":true,"__VUE_I18N_LEGACY_API__":false,"__VUE_I18N_PROD_DEVTOOLS__":true,"__VUE_OPTIONS_API__":false,"__VUE_PROD_DEVTOOLS__":true,"__VUE_PROD_HYDRATION_MISMATCH_DETAILS__":true,"__VUE_HMR_RUNTIME__":{"CHANGED_FILE":"C:/Users/carlos/Desktop/Quasar-default/src/pages/index/NovoCadastroUsuario.vue"},"__VUE_INSTANCE_SETTERS__":[null],"__VUE_SSR_SETTERS__":[null],"devtoolsFormatters":[{"__vue_custom_formatter":true}],"__VUE_DEVTOOLS_COMPONENT_INSPECTOR_ENABLED__":true,"__VUE_DEVTOOLS_KIT_TIMELINE_LAYERS":[],"__VUE_DEVTOOLS_KIT_INSPECTOR__":[],"__VUE_DEVTOOLS_KIT_APP_RECORDS__":[],"__VUE_DEVTOOLS_KIT_ACTIVE_APP_RECORD__":{},"__VUE_DEVTOOLS_KIT_ACTIVE_APP_RECORD_ID__":"","__VUE_DEVTOOLS_KIT_CUSTOM_TABS__":[],"__VUE_DEVTOOLS_KIT_CUSTOM_COMMANDS__":[],"__VUE_DEVTOOLS_KIT_GLOBAL_STATE__":{"connected":false,"clientConnected":false,"vitePluginDetected":true,"appRecords":[],"activeAppRecordId":"","tabs":[],"commands":[],"highPerfModeEnabled":true,"devtoolsClientDetected":{},"perfUniqueGroupId":0,"timelineLayersState":{"recordingState":false,"mouseEventEnabled":false,"keyboardEventEnabled":false,"componentEventEnabled":false,"performanceEventEnabled":false,"selected":""}},"__VUE_DEVTOOLS_KIT_PLUGIN_BUFFER__":[],"__VUE_DEVTOOLS_HOOK":{"_hooks":{},"_deprecatedHooks":{}},"__VUE_DEVTOOLS_KIT__REGISTERED_PLUGIN_APPS__":{},"__VUE_DEVTOOLS_ROUTER_INFO__":{"currentRoute":null,"routes":[]},"__VUE_DEVTOOLS_ROUTER__":{},"__VUE_DEVTOOLS_ENV__":{"vitePluginDetected":false},"__VUE_DEVTOOLS_KIT_CONTEXT__":{"hooks":{"_hooks":{"addInspector":[null],"sendInspectorTree":[null],"sendInspectorState":[null],"customInspectorSelectNode":[null],"timelineLayerAdded":[null],"timelineEventAdded":[null],"getComponentInstances":[null],"getComponentBounds":[null],"getComponentName":[null],"componentHighlight":[null],"componentUnhighlight":[null]},"_deprecatedHooks":{}},"state":{"connected":false,"clientConnected":false,"vitePluginDetected":true,"appRecords":"[Circular]","activeAppRecordId":"","tabs":"[Circular]","commands":"[Circular]","highPerfModeEnabled":true,"devtoolsClientDetected":"[Circular]","perfUniqueGroupId":0,"timelineLayersState":"[Circular]","activeAppRecord":"[Circular]"},"api":{}},"__VUE_DEVTOOLS_NEXT_APP_RECORD_INFO__":{"id":0,"appIds":{}},"__VUE_DEVTOOLS_KIT_MESSAGE_CHANNELS__":[],"__VUE_DEVTOOLS_KIT_RPC_CLIENT__":null,"__VUE_DEVTOOLS_KIT_RPC_SERVER__":null,"__VUE_DEVTOOLS_KIT_VITE_RPC_CLIENT__":null,"__VUE_DEVTOOLS_KIT_VITE_RPC_SERVER__":null,"__VUE_DEVTOOLS_KIT_BROADCAST_RPC_SERVER__":null,"__VUE__":true,"__VUE_DEVTOOLS_HOOK_REPLAY__":null}}
